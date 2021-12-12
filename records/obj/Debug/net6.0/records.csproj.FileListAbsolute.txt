@@ -1,0 +1,15 @@
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/records
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/records.deps.json
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/records.runtimeconfig.json
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/records.dll
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/ref/records.dll
+/Users/jackdelamotte/dev/csharp_playground/records/bin/Debug/net6.0/records.pdb
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.csproj.AssemblyReference.cache
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.AssemblyInfoInputs.cache
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.AssemblyInfo.cs
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.csproj.CoreCompileInputs.cache
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.dll
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/ref/records.dll
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.pdb
+/Users/jackdelamotte/dev/csharp_playground/records/obj/Debug/net6.0/records.genruntimeconfig.cache
