@@ -30,4 +30,50 @@ something = new[] { 3, 5, 7 }; // an array of any type does have a length proper
 
 // this compiles but would throw an exception at run-time
 // if you later store a data type that does not have a length property
-Console.WriteLine($"Length of something is: {something.Length}");
+Console.WriteLine($"Length of something is: {something.Length}"); // outputs 3
+// note that Itellisense won't know the type of dynamic variables
+// the CLR figures it out at runtime
+// lesson: these are dynamic variables... not sure how much these get used.
+
+
+// default types
+Console.WriteLine($"default(int) = {default(int)}");
+Console.WriteLine($"default(bool) = {default(bool)}");
+Console.WriteLine($"default(DateTime) = {default(DateTime)}");
+Console.WriteLine($"default(string) = {default(string)}");
+// all reference types (like strings) have a default type of null
+
+// array initializer syntax
+string[] names = new[] { "Jack", "Rebecca", "Randall", "Kate" };
+
+// pattern matching with if
+object o = "3";
+int j = 4;
+
+if (o is int i)
+{
+    Console.WriteLine($"{i} x {j} = {i * j}");
+}
+else
+{
+    Console.WriteLine("o is not an integer so cannot multiply.");
+}
+
+// reminder that switch expressions exist
+// they're cool but not going to put the syntax here
+
+// catching with filters
+Console.Write("Enter an amount: ");
+string? amount = Console.ReadLine();
+try
+{
+    decimal amountValue = decimal.Parse(amount);
+}
+catch (FormatException) when (amount.Contains("$"))
+{
+    Console.WriteLine("Amounts cannot use the dollar sign!");
+}
+catch (FormatException)
+{
+    Console.WriteLine("Amounts can only contain digits.");
+}
